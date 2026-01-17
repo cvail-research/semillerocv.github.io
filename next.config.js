@@ -22,7 +22,10 @@ const nextConfig = {
   //swcMinify: true,
 
   // Nota: hemos eliminado `output: 'export'` para poder usar i18n
-  output: 'export'
+  output: 'export',
+  //basePath: "/2025",
+  //assetPrefix: "/2025",
+  //trailingSlash: true,
 };
 
 module.exports = nextConfig;
