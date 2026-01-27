@@ -116,14 +116,14 @@ const CharacterCard = memo<CharacterCardProps>(
         initial={{ scale: 1 }}
         animate={{ scale: isHovered ? 1.1 : 1 }}
         transition={{ type: "spring", stiffness: 300, damping: 20 }}
-        className="rounded-md overflow-hidden cursor-pointer"
+        className="rounded-md overflow-hidden cursor-pointer aspect-square w-24 sm:w-28 md:w-32 lg:w-36"
       >
         <Image
           src={project.image}
           alt={project.title}
           width={120}
           height={120}
-          className="object-cover lg:w-full lg:h-full sm:w-32 sm:h-32"
+          className="object-cover w-full h-full"
         />
       </motion.div>
     );
@@ -191,7 +191,7 @@ export default function FinalProjects() {
       </div>
 
       {/* Grid de Thumbnails */}
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-5 gap-4 max-w-4xl">
+      <div className="flex flex-wrap justify-center gap-4 max-w-4xl">
         {projects.map((p, idx) => (
           <CharacterCard
             key={p.id}
