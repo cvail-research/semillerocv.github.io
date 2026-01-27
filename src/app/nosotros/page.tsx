@@ -179,6 +179,40 @@ export default function NosotrosPage() {
                   linkedin: "https://www.linkedin.com/in/henry-dario-mantilla-claro-9186bb272/",
                 }}
               />
+              <TeamCard
+                name="Guillermo Pinto"
+                role="Msc(s) Computer Science"
+                image="/image/people/guillermo.webp"
+                socialLinks={{
+                  github: "https://github.com/guillepinto",
+                  linkedin: "https://www.linkedin.com/in/guillepinto",
+                }}
+              />
+              <TeamCard
+                name="Andrea Parra"
+                role="Msc(s) Computer Science"
+                image="/image/people/andrea.webp"
+                socialLinks={{
+                  github: "https://github.com/andpgate"
+                }}
+              />
+              <TeamCard
+                name="Jorge Garcia"
+                role="Msc(s) Computer Science"
+                image="/image/people/jorge.webp"
+                socialLinks={{
+                  github: "https://github.com/jorge1b3"
+                }}
+              />
+              <TeamCard
+                name="Cristian Rey"
+                role="Msc(s) Computer Science"
+                image="/image/people/cristian.webp"
+                socialLinks={{
+                  github: "https://github.com/CristianR8",
+                  linkedin: "https://www.linkedin.com/in/cristian-rey-b33435229/",
+                }}
+              />
               {/* Add more master students as needed */}
             </div>
           </motion.div>
@@ -199,15 +233,7 @@ export default function NosotrosPage() {
               Estudiantes de Pregrado
             </Typography>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <TeamCard
-                name="Cristian Rey"
-                role="Estudiante de Ingeniería de Sistemas"
-                image="/image/people/cristian.webp"
-                socialLinks={{
-                  github: "https://github.com/CristianR8",
-                  linkedin: "https://www.linkedin.com/in/cristian-rey-b33435229/",
-                }}
-              />
+              
               <TeamCard
                 name="Miguel Ángel"
                 role="Estudiante de Ingeniería de Sistemas"
@@ -235,15 +261,7 @@ export default function NosotrosPage() {
                   github: "hhttps://github.com/pauzca"
                 }}
               />
-              <TeamCard
-                name="Guillermo Pinto"
-                role="Estudiante de Ingeniería de Sistemas"
-                image="/image/people/guillermo.webp"
-                socialLinks={{
-                  github: "https://github.com/guillepinto",
-                  linkedin: "https://www.linkedin.com/in/guillepinto",
-                }}
-              />
+              
               <TeamCard
                 name="Sebastian Solano"
                 role="Estudiante de Ingeniería Electronica"
@@ -261,14 +279,7 @@ export default function NosotrosPage() {
                   linkedin: "https://www.linkedin.com/in/brayan-quintero-7426a2205/",
                 }}
               />
-              <TeamCard
-                name="Andrea Parra"
-                role="Estudiante de Ingeniería Sistemas"
-                image="/image/people/andrea.webp"
-                socialLinks={{
-                  github: "https://github.com/andpgate"
-                }}
-              />
+              
               <TeamCard
                 name="Dana Villamizar"
                 role="Estudiante de Ingeniería Sistemas"
@@ -277,14 +288,7 @@ export default function NosotrosPage() {
                   github: "https://github.com/Danita21"
                 }}
               />
-              <TeamCard
-                name="Jorge Garcia"
-                role="Estudiante de Ingeniería Sistemas"
-                image="/image/people/jorge.webp"
-                socialLinks={{
-                  github: "https://github.com/jorge1b3"
-                }}
-              />
+              
               <TeamCard
                 name="Juan Toloza"
                 role="Estudiante de Ingeniería Sistemas"
