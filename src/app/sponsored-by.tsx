@@ -11,9 +11,9 @@ const RESEARCH_AREAS = [
     description: "Mira a través de las paredes: tecnología para ver más allá de los obstáculos.",
   },
   {
-    title: "Estimación de la profundidad",
+    title: "Predicción densa",
     image: "/image/areas/depth.jpg",
-    description: "Profundiza en el mundo 3D: algoritmos que miden distancias con precisión.",
+    description: "Explora cómo los modelos generan predicciones por píxel",
   },
   {
     title: "NLP",
@@ -21,9 +21,9 @@ const RESEARCH_AREAS = [
     description: "Comunícate con las máquinas: inteligencia que entiende el lenguaje humano.",
   },
   {
-    title: "Segmentación de materiales",
-    image: "/image/areas/segmentation.png",
-    description: "Segmenta a con alta precisión: identificación meticulosa de materiales en imágenes.",
+    title: "Renderizado 3D",
+    image: "/image/areas/render.png",
+    description: "Explora cómo se generan imágenes desde escenas 3D",
   },
   {
     title: "Imágenes espectrales",
