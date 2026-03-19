@@ -129,7 +129,7 @@ export function Footer() {
             </a>
             {/* GitHub Button */}
             <a
-              href="https://github.com/semilleroCV"
+              href="https://github.com/cvail-research"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Visita nuestro repositorio en GitHub"

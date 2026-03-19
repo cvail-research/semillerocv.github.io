@@ -222,7 +222,7 @@ export function Navbar() {
                 onPointerLeaveCapture={() => {}}
               >
                 <a
-                  href="https://github.com/semilleroCV"
+                  href="https://github.com/cvail-research"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
@@ -349,7 +349,7 @@ export function Navbar() {
               </IconButton>
             </a>
             <a
-              href="https://github.com/semilleroCV"
+              href="https://github.com/cvail-research"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Visita nuestro repositorio en GitHub"

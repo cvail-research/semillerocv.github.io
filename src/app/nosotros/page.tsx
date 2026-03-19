@@ -298,7 +298,7 @@ export default function NosotrosPage() {
                 role="Estudiante de Ingeniería Sistemas"
                 image="/image/people/sneider.webp"
                 socialLinks={{
-                  github: "https://github.com/semilleroCV"
+                  github: "https://github.com/cvail-research"
                 }}
               />
               <TeamCard
